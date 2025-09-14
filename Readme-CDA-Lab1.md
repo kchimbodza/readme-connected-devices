@@ -17,8 +17,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule01
 
 **UML Design Diagram(s)**
 
-NOTE: Include one or more UML designs representing your solution. It's expected each diagram you provide will look similar to, but not the same as, its counterpart in the book Programming the IoT.
-[You would include your UML diagrams here showing how ConstrainedDeviceApp and ConfigUtil work together]
+This UML diagram represents your basic Lab Module 1 implementation structure showing how the main application connects to the configuration system.
 
 **Unit Tests Executed**
 
