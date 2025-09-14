@@ -17,8 +17,8 @@ https://github.com/kchimbodza/gda-java/tree/labmodule01
 
 **UML Design Diagram(s)**
 
-NOTE: Include one or more UML designs representing your solution. It's expected each diagram you provide will look similar to, but not the same as, its counterpart in the book Programming the IoT.
-[You would include your UML diagrams here showing how ConstrainedDeviceApp and ConfigUtil work together]
+This represents the basic Java Gateway Device Application structure from Lab Module 1, showing the foundation architecture for configuration management and application lifecycle control.
+The diagram shows how the GDA initializes, loads configuration, and provides the framework that will be extended in Lab Module 2 with system performance monitoring capabilities.
 
 **Unit Tests Executed**
 
