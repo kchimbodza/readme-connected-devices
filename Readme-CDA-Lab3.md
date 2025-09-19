@@ -6,7 +6,7 @@ Description
 
 **What the Implementation does**
 
-My Lab Module 3 implementation creates a comprehensive IoT simulation system with automatic climate control capabilities. The CDA now generates realistic time-series sensor data for temperature, humidity, and pressure while automatically controlling HVAC systems based on configurable temperature thresholds (floor: 19°C, ceiling: 20°C). The system uses mathematical models through SensorDataGenerator to create authentic 24-hour data sets with 1440 entries each, simulating real-world sensor behavior with configurable noise levels. When temperature readings exceed boundaries, the DeviceDataManager automatically triggers HVAC actuator commands, creating a complete smart building simulation that demonstrates sensing, analysis, and actuation in a cohesive IoT system.
+My Lab Module 3 builds a smart IoT simulation that controls indoor climate automatically. It collects realistic sensor data for temperature, humidity, and pressure. If the temperature goes above 20°C or below 19°C, the system turns the HVAC on or off to keep things comfortable. The SensorDataGenerator creates 24-hour data sets with 1440 entries to mimic real sensor behavior, including random noise. The DeviceDataManager watches the temperature and sends commands to the HVAC system when needed. This setup shows how sensing, decision-making, and action work together in a smart building.
 
 **How it works**
 
@@ -19,7 +19,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule03
 
 UML diagram showing DeviceDataManager as central orchestrator implementing IDataMessageListener, coordinating SensorAdapterManager (with TemperatureSensorSimTask, HumiditySensorSimTask, PressureSensorSimTask using SensorDataGenerator), ActuatorAdapterManager (with HvacActuatorSimTask, HumidifierActuatorSimTask), and SystemPerformanceManager. All components use APScheduler for background task execution with callback-driven data flow and automatic threshold-based climate control logic.
 
-
+<img width="2059" height="1285" alt="lab3-uml-cda" src="https://github.com/user-attachments/assets/305796b6-2664-4e3d-a23d-cffeec3d2436" />
 
 **Unit Tests Executed**
 
