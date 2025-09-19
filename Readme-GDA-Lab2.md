@@ -1,6 +1,6 @@
 **Gateway Device Application (Connected Devices)**
 
-Lab Module 01
+Lab Module 02
 
 Description
 
@@ -18,6 +18,8 @@ URL: https://github.com/kchimbodza/gda-java/tree/labmodule02
 **UML Design Diagram(s)**
 
 UML diagram showing the class relationships between GatewayDeviceApp, SystemPerformanceManager, BaseSystemUtilTask, SystemCpuUtilTask, SystemMemUtilTask, and ScheduledExecutorService
+
+<img width="3060" height="1422" alt="lab2-uml-gda" src="https://github.com/user-attachments/assets/cc925f19-f93d-4fa0-af82-41b9e5ff5518" />
 
 **Unit Tests Executed**
 
