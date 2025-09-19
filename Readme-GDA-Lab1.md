@@ -19,6 +19,7 @@ https://github.com/kchimbodza/gda-java/tree/labmodule01
 
 This represents the basic Java Gateway Device Application structure from Lab Module 1, showing the foundation architecture for configuration management and application lifecycle control.
 The diagram shows how the GDA initializes, loads configuration, and provides the framework that will be extended in Lab Module 2 with system performance monitoring capabilities.
+<img width="1237" height="808" alt="lab1-uml-gda" src="https://github.com/user-attachments/assets/ff32212a-8183-430c-929e-b4a9ab931f0a" />
 
 **Unit Tests Executed**
 
