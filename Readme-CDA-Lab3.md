@@ -1,6 +1,6 @@
 **Constrained Device Application (Connected Devices)**
 
-Lab Module 01
+Lab Module 03
 
 Description
 
@@ -10,7 +10,7 @@ My Lab Module 3 implementation creates a comprehensive IoT simulation system wit
 
 **How it works**
 
-The architecture uses DeviceDataManager as the central orchestrator that manages three key subsystems through IDataMessageListener callbacks. The SensorAdapterManager employs APScheduler to collect sensor data every 5 seconds from three simulation tasks (TemperatureSensorSimTask, HumiditySensorSimTask, PressureSensorSimTask), each using either SensorDataGenerator time-series data or random value generation. Temperature readings trigger threshold analysis within DeviceDataManager - values above 20°C or below 19°C automatically generate HVAC ActuatorData commands sent to ActuatorAdapterManager. The ActuatorAdapterManager validates commands through location ID matching and routes them to appropriate simulator tasks (HvacActuatorSimTask, HumidifierActuatorSimTask) which log realistic activation/deactivation messages. Smart duplicate command filtering prevents unnecessary actuator cycling. SystemPerformanceManager continues monitoring CPU and memory utilization every 60 seconds. The entire system integrates through ConstrainedDeviceApp, providing clean startup/shutdown with proper scheduler management and exception handling.
+The system is built around DeviceDataManager, which controls three subsystems using callback functions. SensorAdapterManager uses APScheduler to collect data every 5 seconds from three simulated sensors: temperature, humidity, and pressure. These sensors use either time-series data or random values. If the temperature goes above 20°C or below 19°C, DeviceDataManager sends HVAC commands to ActuatorAdapterManager. This manager checks the location ID and forwards commands to the correct simulator (HVAC or humidifier), which logs realistic on/off actions. Duplicate commands are filtered to avoid unnecessary actuator changes. SystemPerformanceManager tracks CPU and memory every 60 seconds. The whole system runs through ConstrainedDeviceApp, ensuring smooth startup, shutdown, and error handling.
 
 Code Repository and Branch
 URL: https://github.com/kchimbodza/cda-python/tree/labmodule03
