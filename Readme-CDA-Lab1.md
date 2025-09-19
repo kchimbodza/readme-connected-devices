@@ -18,6 +18,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule01
 **UML Design Diagram(s)**
 
 This UML diagram represents your basic Lab Module 1 implementation structure showing how the main application connects to the configuration system.
+<img width="1264" height="970" alt="lab1-uml-cda" src="https://github.com/user-attachments/assets/bef4cb05-e33f-4ca5-af8f-7d588423bf9a" />
 
 **Unit Tests Executed**
 
