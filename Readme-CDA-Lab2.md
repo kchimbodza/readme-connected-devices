@@ -19,7 +19,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule02
 
 UML diagram showing SystemPerformanceManager, SystemCpuUtilTask, SystemMemUtilTask, and their relationships with ConstrainedDeviceApp and APScheduler
 
-<img width="1939" height="957" alt="lab2-uml-cda" src="https://github.com/user-attachments/assets/7491a1e4-e39c-476a-bfd6-4a6ec7b8b0ea" />
+![lab2-uml-cda](https://github.com/user-attachments/assets/345ad06c-bea7-48c7-9859-515a33130bdd)
 
 **Unit Tests Executed**
 
