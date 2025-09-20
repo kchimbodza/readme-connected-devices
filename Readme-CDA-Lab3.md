@@ -19,7 +19,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule03
 
 UML diagram showing DeviceDataManager as central orchestrator implementing IDataMessageListener, coordinating SensorAdapterManager (with TemperatureSensorSimTask, HumiditySensorSimTask, PressureSensorSimTask using SensorDataGenerator), ActuatorAdapterManager (with HvacActuatorSimTask, HumidifierActuatorSimTask), and SystemPerformanceManager. All components use APScheduler for background task execution with callback-driven data flow and automatic threshold-based climate control logic.
 
-<img width="2059" height="1285" alt="lab3-uml-cda" src="https://github.com/user-attachments/assets/305796b6-2664-4e3d-a23d-cffeec3d2436" />
+<img width="2595" height="1742" alt="lab3-uml-cdav2" src="https://github.com/user-attachments/assets/61b8ad1f-4ca6-4d92-8a2b-74b268ee02cb" />
 
 **Unit Tests Executed**
 
