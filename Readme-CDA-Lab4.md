@@ -19,7 +19,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule04
 
 UML diagram showing DeviceDataManager implementing IDataMessageListener as central coordinator, SensorAdapterManager with TemperatureSensorEmulatorTask/HumiditySensorEmulatorTask/PressureSensorEmulatorTask, ActuatorAdapterManager with HumidifierEmulatorTask/HvacEmulatorTask/LedDisplayEmulatorTask, SystemPerformanceManager with SystemCpuUtilTask/SystemMemUtilTask, ConstrainedDeviceApp as main application controller, and BaseActuatorSimTask/BaseSensorSimTask as emulator task base classes.
 
-
+<img width="2338" height="1485" alt="lab4-uml-cda" src="https://github.com/user-attachments/assets/8db0077e-807b-456d-9def-bea7778aa257" />
 
 **Unit Tests Executed**
 
