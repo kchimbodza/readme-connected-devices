@@ -18,6 +18,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule06
 **UML Design Diagram(s)**
 
 [UML diagram showing ConstrainedDeviceApp, DeviceDataManager, MqttClientConnector, and data classes with their relationships]
+<img width="2219" height="1017" alt="lab6-uml-cda" src="https://github.com/user-attachments/assets/768191fc-a8e8-4ef9-b2fa-2f4eb99b3ff8" />
 
 **Unit Tests Executed**
 
