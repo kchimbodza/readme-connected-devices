@@ -13,7 +13,7 @@ My Lab Module 5 builds a data manager for IoT gateway devices. The DeviceDataMan
 DeviceDataManager is the main controller that handles all data. It starts SystemPerformanceManager which runs a timer to check CPU, memory, and disk usage. When new performance data is ready, SystemPerformanceManager sends it to DeviceDataManager through callback methods. GatewayDeviceApp creates the DeviceDataManager and starts/stops it. DataUtil converts Java objects to JSON text and back. The system reads settings from a config file to turn features on or off.
 
 Code Repository and Branch
-URL: https://github.com/kchimbodza/gda-java-components/tree/labmodule05
+URL: https://github.com/kchimbodza/gda-java/tree/labmodule05
 
 **UML Design Diagram(s)**
 
