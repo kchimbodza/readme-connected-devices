@@ -19,6 +19,9 @@ https://github.com/kchimbodza/gda-java-components/tree/labmodule07
 
 The design shows MqttClientConnector implementing IPubSubClient interface, integrated into DeviceDataManager alongside SystemPerformanceManager. DeviceDataManager acts as the central coordinator managing MQTT connectivity and implementing IDataMessageListener for message handling.
 
+<img width="1455" height="908" alt="lab7-gda-uml" src="https://github.com/user-attachments/assets/2e197dbe-f715-45a0-8e10-7a8fd4f454c4" />
+
+
 **Unit Tests Executed**
 
 1. MqttClientConnectorTest
