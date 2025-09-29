@@ -19,21 +19,19 @@ URL: https://github.com/kchimbodza/gda-java-components/tree/labmodule05
 
 UML diagram showing GatewayDeviceApp creates DeviceDataManager, DeviceDataManager manages SystemPerformanceManager, and SystemPerformanceManager collects CPU/memory/disk data from system tasks.
 
+<img width="2944" height="1315" alt="lab5-gda-uml" src="https://github.com/user-attachments/assets/d6b9609f-ba9c-4b8c-9598-95359e5c5381" />
+
+
 **Unit Tests Executed**
 
-ActuatorDataTest
-SensorDataTest
-SystemPerformanceDataTest
-SystemStateDataTest
-
-SystemPerformanceManagerTest
-
-DataUtilTest
-DataIntegrationTest
-
+1. ActuatorDataTest
+2. SensorDataTest
+3. SystemPerformanceDataTest
+4. DataUtilTest
 
 **Integration Tests Executed**
 
-test_DeviceDataManagerNoCommsTest
-test_GatewayDeviceAppTest
-
+1. SystemPerformanceManagerTest
+2. DataIntegrationTest
+3. test_DeviceDataManagerNoCommsTest
+4. test_GatewayDeviceAppTest
