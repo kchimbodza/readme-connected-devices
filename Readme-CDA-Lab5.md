@@ -19,6 +19,8 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule05
 
 UML diagram showing SystemPerformanceManager collecting system metrics with callback support, DataUtil handling JSON conversion, SystemPerformanceData storing performance information, and IDataMessageListener connecting system components.
 
+<img width="2521" height="1092" alt="lab5-cda-uml" src="https://github.com/user-attachments/assets/cc3fb7ed-3610-4562-ada5-05e101d703fb" />
+
 **Unit Tests Executed**
 
 1. test_DataUtil 
