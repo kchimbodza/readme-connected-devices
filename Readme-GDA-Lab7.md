@@ -13,7 +13,7 @@ My implementation adds MQTT messaging capabilities to the Gateway Device Applica
 The MqttClientConnector class uses the Eclipse Paho MQTT library to handle all messaging operations. It implements callback methods that respond automatically when connections succeed or fail, when messages are delivered, and when new messages arrive from subscribed topics. The DeviceDataManager integrates this MQTT client into its startup and shutdown processes, connecting to the broker and subscribing to four essential topics: GDA management status, CDA actuator responses, CDA sensor messages, and CDA system performance data. During testing, I ran the GDA application in one terminal while executing integration tests in my IDE to verify that messages flow correctly through a Mosquitto broker.
 
 Code Repository and Branch URL: 
-https://github.com/kchimbodza/gda-java-components/tree/labmodule07
+[https://github.com/kchimbodza/gda-java/tree/labmodule07]
 
 **UML Design Diagram(s)**
 
