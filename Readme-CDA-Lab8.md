@@ -19,6 +19,9 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule08
 
 UML diagram showing CoapServerAdapter managing three handlers (GetSystemPerformanceResourceHandler, GetTelemetryResourceHandler, UpdateActuatorResourceHandler), integrated with DeviceDataManager for data flow between sensors, actuators, and CoAP clients. Includes resource tree structure, JSON conversion via DataUtil, and asyncio threading model.
 
+<img width="2208" height="1377" alt="lab8-CDA-UML" src="https://github.com/user-attachments/assets/55d98c8e-81d8-4715-b994-9c32772e0f97" />
+
+
 **Integration Tests Executed**
 
 1. ConstrainedDeviceApp - CoAP requests and Data retrieval
