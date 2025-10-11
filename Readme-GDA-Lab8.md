@@ -20,6 +20,8 @@ URL: https://github.com/kchimbodza/gda-java-components/tree/labmodule08
 UML diagram showing relationships between: DeviceDataManager, CoapServerGateway
 Three Resource Handlers: UpdateTelemetryResourceHandler (handles sensor data), UpdateSystemPerformanceResourceHandler (handles performance data), GetActuatorCommandResourceHandler (handles actuator commands, observable), SensorData, SystemPerformanceData, ActuatorData and Californium CoapServer (external library)
 
+<img width="2595" height="1232" alt="lab8-GDA-UML" src="https://github.com/user-attachments/assets/69ea23a0-4741-43e9-84e7-78fe765bde56" />
+
 **Unit Tests Executed**
 
 **Integration Tests Executed**
