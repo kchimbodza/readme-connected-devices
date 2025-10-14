@@ -20,6 +20,13 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule06
 [UML diagram showing ConstrainedDeviceApp, DeviceDataManager, MqttClientConnector, and data classes with their relationships]
 <img width="2219" height="1017" alt="lab6-uml-cda" src="https://github.com/user-attachments/assets/768191fc-a8e8-4ef9-b2fa-2f4eb99b3ff8" />
 
+**Wireshark Output:**
+
+Wireshark output for the MQTT specific protocol content for all FOURTEEN (14) MQTT 3.1.1 Control Packet types
+<img width="2759" height="1735" alt="Screenshot From 2025-09-27 13-07-36" src="https://github.com/user-attachments/assets/5420ac37-5cf2-481f-85eb-e7ab065877aa" />
+
+
+
 **Unit Tests Executed**
 
 1. test_MqttClientConnector.py
