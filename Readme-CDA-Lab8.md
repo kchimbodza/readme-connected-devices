@@ -21,6 +21,9 @@ UML diagram showing CoapServerAdapter managing three handlers (GetSystemPerforma
 
 <img width="2208" height="1377" alt="lab8-CDA-UML" src="https://github.com/user-attachments/assets/55d98c8e-81d8-4715-b994-9c32772e0f97" />
 
+**Log Output for CoAP Discover, CoAP GET and ResourceNameEnum resources registration**
+<img width="2904" height="1431" alt="Screenshot From 2025-10-14 23-47-48" src="https://github.com/user-attachments/assets/2cfff6b7-7510-49a0-bee6-c8ed7025c63f" />
+
 
 **Integration Tests Executed**
 
