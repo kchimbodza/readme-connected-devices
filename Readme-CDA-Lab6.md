@@ -73,11 +73,6 @@ PINGRESP - Packet #118
 DISCONNECT - Packet #123
 <img width="2113" height="265" alt="DISCONNECT" src="https://github.com/user-attachments/assets/677ed99a-a110-4cdf-855e-4ffaffd7e79f" />
 
-
-**Unit Tests Executed**
-
-1. test_MqttClientConnector.py
-
 **Integration Tests Executed**
 
 1. test_MqttClientConnector.py
