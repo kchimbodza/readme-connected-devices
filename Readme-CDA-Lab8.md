@@ -28,4 +28,4 @@ UML diagram showing CoapServerAdapter managing three handlers (GetSystemPerforma
 **Integration Tests Executed**
 
 1. ConstrainedDeviceApp - CoAP requests and Data retrieval
-2. CoapServerGatewayTest
+2. CoapServerAdapterTest
