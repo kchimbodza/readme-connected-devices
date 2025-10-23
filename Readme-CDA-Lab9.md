@@ -19,6 +19,8 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule09
 **UML Design Diagram(s)**
 
 UML diagram showing CoapClientConnector with methods for discovery, GET, POST, PUT, DELETE, and observe operations, integrated with DeviceDataManager. Includes async request handlers, response callbacks (_onGetResponse, _onPostResponse, _onPutResponse, _onDeleteResponse), ResourceNameEnum for resource paths, DataUtil for JSON conversion, and asyncio event loop for non-blocking operations.
+<img width="1273" height="799" alt="lab9-CDA-UML" src="https://github.com/user-attachments/assets/acee2c4c-bfa7-40e5-abbe-f5ca0c85b3df" />
+
 
 **Wireshark Output**
 <img width="3097" height="1068" alt="Screenshot From 2025-10-16 00-25-20" src="https://github.com/user-attachments/assets/7439fcbe-7522-462e-b500-f6d1119d4c13" />
