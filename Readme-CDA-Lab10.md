@@ -18,6 +18,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule10
 **UML Design Diagram(s)**
 
 The classes that interact in the CDA UML are: ConstrainedDeviceApp interacts with DeviceDataManager, DeviceDataManager interacts with MqttClientConnector, SensorAdapterManager, and ActuatorAdapterManager, MqttClientConnector interacts with MqttClient, SSLContext, SensorData, and ActuatorData, SensorAdapterManager interacts with SensorData, and ActuatorAdapterManager interacts with ActuatorData.
+<img width="1410" height="948" alt="Screenshot From 2025-10-27 21-59-57" src="https://github.com/user-attachments/assets/ce67001e-308d-4037-b618-190b0f3cbbbe" />
 
 
 
