@@ -13,7 +13,7 @@ The Constrained Device Application generates sensor data from temperature, humid
 When the CDA starts, it reads a config file to check if TLS encryption is enabled. If so, it loads a certificate and connects securely to port 8883 instead of the unencrypted port 1883. Sensor readings like temperature and humidity are generated every 5 seconds, and if they cross set limits, the CDA sends encrypted messages to the MQTT broker. It also listens for encrypted actuator commands from the GDA, processes them, and activates the HVAC system when needed. During testing, tools like Wireshark confirm that all data sent between CDA and GDA is encrypted and secure.
 
 Code Repository and Branch
-URL: https://github.com/kchimbodza/cda-java-components/tree/labmodule10
+URL: https://github.com/kchimbodza/cda-python/tree/labmodule10
 
 **UML Design Diagram(s)**
 
