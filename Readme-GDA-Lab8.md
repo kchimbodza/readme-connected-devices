@@ -13,7 +13,7 @@ In order to enable communication between the Gateway Device Application (GDA) an
 The CoAP server is configured with three handlers: one for sensor data, one for performance data, and one for actuator instructions. DeviceDataManager creates a CoapServerGateway when the program launches.  The handler transforms data sent by a client in JSON format into a Java object before forwarding it to DeviceDataManager.  The actuator handler has the ability to automatically alert clients when new instructions are available.  Through path segmentation and folder creation when required, the server arranges resources in a tree structure similar to PIOT/ConstrainedDevice/SensorMsg.
 
 Code Repository and Branch
-URL: https://github.com/kchimbodza/gda-java-components/tree/labmodule08
+URL: https://github.com/kchimbodza/gda-java/tree/labmodule08
 
 **UML Design Diagram(s)**
 
