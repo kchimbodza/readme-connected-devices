@@ -20,32 +20,33 @@ URL: https://github.com/kchimbodza/cda-java-components/tree/labmodule10
 The classes that interact in the CDA UML are: ConstrainedDeviceApp interacts with DeviceDataManager, DeviceDataManager interacts with MqttClientConnector, SensorAdapterManager, and ActuatorAdapterManager, MqttClientConnector interacts with MqttClient, SSLContext, SensorData, and ActuatorData, SensorAdapterManager interacts with SensorData, and ActuatorAdapterManager interacts with ActuatorData.
 
 
-**CDA MqTT Performance Results**
 
-QoS 0: Fastest (~5.4 msgs/ms) - no acknowledgment overhead
-QoS 1: 1.3x slower - requires PUBACK from broker per message
-QoS 2: 1.9x slower - requires full 4-way handshake per message
-Java vs Python: GDA (Java) is faster than CDA (Python) for all QoS levels
+**Wireshark Showing TLS protocol**
+<img width="3840" height="2160" alt="Screenshot From 2025-10-27 19-17-19" src="https://github.com/user-attachments/assets/60f86492-4796-4bed-9c13-3c6fa2b32f3a" />
+
+**CDA MqTT Performance Results**
+<img width="1831" height="1657" alt="MqttClientPerformance_Tests" src="https://github.com/user-attachments/assets/738f75ee-dc56-4bba-934e-ffbb36efebb4" />
+
+
+Connect and Disconnect: 2005.17 ms
+
+Publish Performance (10,000 messages):
+  QoS 0 (Fire and Forget):  1696.07 ms (baseline)
+  QoS 1 (At Least Once):    3203.18 ms (+88.9% vs QoS 0)
+  QoS 2 (Exactly Once):     5012.49 ms (+195.4% vs QoS 0)
 
 **CDA Coap Performance Results**
+<img width="1719" height="331" alt="Screenshot From 2025-10-27 13-52-37" src="https://github.com/user-attachments/assets/11e34a00-5910-4f5b-8993-ce4963af877b" />
 
-POST - CON (Confirmed): 608 ms for 10,000 requests
-POST - NON (Non-Confirmed): 385 ms for 10,000 requests
-Both tests passed - No failures or errors
+POST Performance (10,000 messages):
+  NON (Non-Confirmable):  14,961.70 ms (baseline)
+  CON (Confirmable):      21,469.45 ms (+43.5% vs NON)
 
-Performance Analysis:
-NON is faster than CON (as expected):
-
-NON baseline: 385 ms
-CON: 608 ms
-Difference: 608 - 385 = 223 ms slower
-Percentage: (223 / 385) × 100 = 57.9% slower with CON
-
-This makes sense because CON (confirmed) messages require acknowledgments from the server, adding overhead. NON (non-confirmed) messages are fire-and-forget, so they're faster.
+Status: 2 tests PASSED in 40.474s
 
 **Now comparing CDA vs GDA results:**
 
-The CDA was tested across MQTT QoS levels 0, 1, and 2, with QoS 0 offering the fastest performance and QoS 2 being the slowest due to its four-step handshake; Python was slower than Java but maintained stable communication. During a 5-minute test, the CDA reliably generated 60 sensor readings, triggered actuator responses when thresholds were crossed, and transmitted all data securely without loss. Integration testing confirmed successful TLS setup, with encrypted sensor, command, and response messages exchanged between CDA and GDA, as verified by Wireshark packet captures. Security was enforced through TLSv1.2, certificate validation, and encrypted MQTT traffic, with key configuration settings like enableCrypt=True and secure port 8883 ensuring protected communication.
+Key Finding: MQTT is significantly faster than CoAP (up to 8.8x faster with QoS 0), but CoAP offers lighter-weight communication for constrained devices.
 
 **Unit Tests Executed**
 
