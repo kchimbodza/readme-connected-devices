@@ -23,7 +23,8 @@ The primary classes involved in Lab Module 11 implementation are CloudClientConn
 **Verification**
 Screenshots show: (1) Ubidots dashboard with 3+ variables displaying real-time data,  
 integration and actuation.
-<img width="1488" height="1239" alt="Screenshot From 2025-10-29 17-13-28" src="https://github.com/user-attachments/assets/f56010b0-77c3-40af-98bb-1b783b84b91b" />
+<img width="2848" height="1264" alt="Screenshot From 2025-10-30 03-20-31" src="https://github.com/user-attachments/assets/5cecc08f-4ed2-4b41-9663-89e6a988920a" />
+
 
 (2) LED variable showing ON/OFF transitions,
 <img width="2671" height="1386" alt="Screenshot From 2025-10-30 02-08-53" src="https://github.com/user-attachments/assets/2f759a02-50dd-4be2-8898-5da684f6981c" />
