@@ -12,7 +12,7 @@ The GDA collects environmental sensor data (temperature, humidity, pressure) fro
 The CloudClientConnector manages secure TLS communication with Ubidots and provisions the LED topic on successful connection. The DeviceDataManager subscribes to three sensor-specific topics locally and routes sensor messages to the cloud via sendEdgeDataToCloud(). When Ubidots publishes an LED command, the LedEnablementMessageListener converts it to ActuatorData and forwards it to the CDA via local MQTT.
 
 Code Repository and Branch
-URL: https://github.com/kchimbodza/gda-python/tree/labmodule10
+URL: https://github.com/kchimbodza/gda-java/tree/labmodule10
 
 **UML Design Diagram(s)**
 
