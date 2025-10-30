@@ -18,6 +18,7 @@ URL: https://github.com/kchimbodza/cda-python/tree/labmodule11
 **UML Design Diagram(s)**
 
 The primary classes involved in Lab Module 11 implementation are CloudClientConnector, MqttClientConnector, LedEnablementMessageListener, and DeviceDataManager. Supporting interfaces include ICloudClient, IConnectionListener, and IDataMessageListener. Data model classes are SensorData, ActuatorData, and SystemPerformanceData. Utility classes are DataUtil and ResourceNameEnum.
+<img width="1536" height="343" alt="lab11CDAUML" src="https://github.com/user-attachments/assets/8bf4f45d-9d8c-4ebd-918a-aff3e9b8d8a0" />
 
 
 **Verification**
