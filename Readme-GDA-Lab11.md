@@ -5,6 +5,7 @@ Lab Module 11
 Description
 
 **What the Implementation does**
+
 The GDA collects environmental sensor data (temperature, humidity, pressure) from the CDA on three separate MQTT topics and transmits it to Ubidots cloud service. It subscribes to Ubidots LED actuation events that trigger based on sensor threshold rules. When cloud commands arrive, the GDA processes them and forwards them back to the CDA for device actuation.
 
 **How it works**
