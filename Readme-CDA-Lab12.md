@@ -1,6 +1,6 @@
 **Constrained Device Application (Connected Devices)**
 
-Lab Module 11
+Lab Module 12
 
 Description
 
@@ -21,10 +21,13 @@ URL: https://github.com/kchimbodza/cda-java/tree/labmodule12
 **UML Design Diagram(s)**
 
 The UML class diagram shows the relationships between the following classes: ConstrainedDeviceApp , DeviceDataManager , SensorAdapterManager , ActuatorAdapterManager , PitchSensorEmulatorTask , LEDDisplayActuator , MqttClientConnector , SensorData , ActuatorData, ConfigUtil, and SenseHAT (provides hardware interface for IMU, LED matrix, and joystick).
+<img width="988" height="629" alt="Lab12CDAuml" src="https://github.com/user-attachments/assets/3fa8b0ad-a30a-4487-a522-0e751a2d65a0" />
+
 
 
 **Verification**
-Screenshots show: (1) Ubidots dashboard with 3+ variables displaying real-time data, (2) LED variable showing ON/OFF transitions, (3) GDA console logs showing "Received LED enablement message" events. All three screenshots confirm successful end-to-end cloud integration and actuation.
+Screenshots shows that the dashboard displays 9 variables in real-time from Lab 12 CDA system: three environmental sensors (temperature: 25°C, humidity: 22%, pressure: 378.3 mbar), LED position coordinates (horizontal: 4, vertical: 3), actuator states, and system performance metrics. All variables show recent activity (3-5 minutes ago), confirming the CDA-GDA-Ubidots data pipeline is fully operational with live sensor telemetry and LED control position tracking being successfully transmitted to the cloud platform.
+<img width="2070" height="1123" alt="Screenshot From 2025-11-05 23-16-11" src="https://github.com/user-attachments/assets/ad89c37c-e068-4d41-a492-549e8c6797d6" />
 
 **Unit Tests:**
 
@@ -32,5 +35,5 @@ Screenshots show: (1) Ubidots dashboard with 3+ variables displaying real-time d
 2. test_LEDDisplayActuator. 
 
 **Integration Tests:**
-
+1. test_ConstrainedDeviceApp
 
