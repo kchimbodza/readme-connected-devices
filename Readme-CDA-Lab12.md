@@ -16,7 +16,7 @@ In manual mode, users interact with the joystick to move the LED dot: pressing L
 When the LED position changes, DeviceDataManager publishes the current x and y coordinates along with the control mode to the MQTT topic piot/cda/actuator/ledposition as a JSON message. This data flows through the GDA to the Ubidots cloud platform where it can be visualized and analyzed in real-time.
 
 Code Repository and Branch
-URL: https://github.com/kchimbodza/cda-java/tree/labmodule12
+URL: https://github.com/kchimbodza/cda-python/tree/labmodule12
 
 **UML Design Diagram(s)**
 
