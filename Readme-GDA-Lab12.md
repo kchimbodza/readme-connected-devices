@@ -17,6 +17,7 @@ URL: https://github.com/kchimbodza/gda-java/tree/labmodule12
 **UML Design Diagram(s)**
 
 The primary classes involved in Lab 12 GDA are: GatewayDeviceApp (main application controller), DeviceDataManager (orchestrates MQTT message reception and cloud publishing), MqttClientConnector (receives LED position data from CDA), CloudClientConnector (publishes position data to Ubidots), ResourceNameEnum (defines MQTT topic identifiers), SensorData (encapsulates position telemetry), and ActuatorData (encapsulates incoming LED position commands).
+<img width="606" height="473" alt="GDA Lab12UML" src="https://github.com/user-attachments/assets/ea22fe63-fc35-49cf-9cad-d85ba1bc664b" />
 
 **GDA Unit Tests:**
 
